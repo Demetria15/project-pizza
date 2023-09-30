@@ -53,7 +53,7 @@ const noOption = "No";
 
 if (age < 18) {
   cost = 8; // Cost for child
-  alert(`One child sized ${typeOption[foodChoice -1][foodType -1]} ${foodChoices[foodChoice -1]} will be prepare for you. That'll be ${cost}€. Are you sure you want to order this? \n Enter a number to confirm: \n 1 - ${yesOption} \n 2 - No`);
+  alert(`One child sized ${typeOption[foodChoice -1][foodType -1]} ${foodChoices[foodChoice -1]} will be prepare for you. That'll be ${cost}€. Are you sure you want to order this? \n Enter a number to confirm: \n 1 - ${yesOption} \n 2 - ${noOption}`);
 } else if (age >= 18) {
   cost = 18; // Cost for adult
   alert(  `One adult ${typeOption[foodChoice -1][foodType -1]} ${foodChoices[foodChoice -1]} size will be prepare for you. That'll be ${cost}€. Are you sure you want to order this? \n Enter a number to confirm: \n 1 - ${yesOption} \n 2 - ${noOption}`);
